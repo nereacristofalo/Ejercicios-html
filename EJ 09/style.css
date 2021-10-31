@@ -1,0 +1,21 @@
+.cuadrado {
+  border: 2px solid black;
+  height: 130px;
+  width: 130px;
+  margin: 100px;
+  transition: all 2s ease;
+  opacity: 1;
+}
+
+.rotar:hover {
+  cursor: pointer;
+  transform: rotateZ(360deg);
+  transition: all 2s ease;
+}
+
+.desaparecer:hover {
+  cursor: pointer;
+  transition: all 2s ease;
+  transform: translateX(300px);
+  opacity: 0;
+}
