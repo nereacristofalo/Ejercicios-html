@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen {
+  height: 15rem;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .img-xl {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .img-lg {
+    display: none;
+  }
+}
