@@ -1,0 +1,11 @@
+.mibarra {
+  width: 25%;
+  transition: all 2s ease;
+}
+.mibarra:hover {
+  width: 100%;
+  transition: all 10s ease;
+}
+.progress {
+  margin-top: 10px;
+}
