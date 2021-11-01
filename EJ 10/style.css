@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagen {
+  display: none;
+}
+.cuadrado {
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: red;
+  height: 10rem;
+  width: 10rem;
+}
+
+@media (max-width: 900px) {
+  .cuadrado {
+    background-color: green;
+  }
+  .video {
+    display: none;
+  }
+  .imagen {
+    display: block;
+    width: auto;
+    height: 10rem;
+  }
+}
